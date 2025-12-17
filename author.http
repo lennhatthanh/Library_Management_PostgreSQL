@@ -1,0 +1,27 @@
+POST http://localhost:3001/api/authors
+Content-Type: application/json
+
+{
+    "name" : "Thành"
+}
+
+###
+DELETE http://localhost:3001/api/authors/2
+Content-Type: application/json
+
+###
+PUT http://localhost:3001/api/authors/3
+Content-Type: application/json
+
+{
+    "name" : "Minhh"
+}
+
+###
+GET http://localhost:3001/api/authors
+Content-Type: application/json
+
+
+###
+GET http://localhost:3001/api/authors/3
+Content-Type: application/json
