@@ -11,10 +11,10 @@ const options = {
         },
         servers: [
             {
-                url: "http://localhost:3001",
+                url: "https://library-management-postgresql.onrender.com"
             },
             {
-                url: "https://library-management-postgresql.onrender.com"
+                url: "http://localhost:3001"
             }
         ],
         components: {
