@@ -13,6 +13,9 @@ const options = {
             {
                 url: "http://localhost:3001",
             },
+            {
+                url: "https://library-management-postgresql.onrender.com"
+            }
         ],
         components: {
             schemas: {
